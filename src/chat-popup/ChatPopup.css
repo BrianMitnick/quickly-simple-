@@ -1,0 +1,42 @@
+.container3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    margin: 0rem;
+    margin-right: 0.1em;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .back-button,
+  .close-button {
+    margin: 0 19px; 
+    cursor: pointer;
+  }
+  .case-number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 999px; 
+    font-size: 0.7rem;
+    margin-right: 5rem;
+    color: #2f80eb;
+    font-weight: bold;/* Sesuaikan lebar maksimum sesuai kebutuhan */
+  }
+  
+  .message-container {
+    /* ... your existing styles for message container */
+  }
+  
+  /* ... other styles for messages, input, etc. */
